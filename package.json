@@ -1,0 +1,20 @@
+{
+  "name": "node-mysql-rest-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --watch index.js ./index.js",
+    "koa": "nodemon --watch koa.js ./koa.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "koa": "^2.5.3",
+    "koa-router": "^7.4.0",
+    "mysql": "^2.16.0",
+    "mysql2": "^1.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
